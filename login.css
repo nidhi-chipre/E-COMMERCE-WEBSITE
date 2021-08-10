@@ -1,0 +1,65 @@
+*{
+margin: 0;
+	padding: 0;
+}
+body{
+	font-family: fantasy;
+}
+.video{
+			position:absolute;
+		    top: 0;
+		    left: 5;
+	         right: 5;
+		    margin: 0px;
+		    width: 99%;
+		    z-index: -1;
+		}
+.form-box{
+	width: 500px;
+	background: black;
+	margin: 12% auto;
+	padding: 50px 0;
+	color: red;
+	box-shadow: black;
+}
+h2{
+	text-align: center;
+	margin-bottom: 40px;
+}
+.input-box{
+	margin: 31px auto;
+	width: 80%;
+	border-bottom: 1px solid white;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+.input-box input{
+	width: 90%;
+	border:none;
+	outline:none;
+	background: transparent;
+	color: white;
+}
+
+::placeholder{
+	color: #ccc;
+}
+#hide1{
+	display: none;
+}
+.btn{
+	margin: 40px auto 20px;
+	width: 20%;
+	display: block;
+	outline: none;
+	padding: 10px 0;
+	border: 1px solid #fff;
+	cursor: pointer;
+	background: transparent;
+	color:#fff;
+	text-align: center;
+	font-size: 16px;
+}
+.btn:hover{
+	background: crimson;
+}

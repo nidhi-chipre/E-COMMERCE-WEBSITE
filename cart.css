@@ -1,0 +1,30 @@
+*{
+			padding: 0;
+			margin: 0;
+	    box-sizing:border-box;
+			
+		}
+body{
+	
+	font-family: 'Quicksand', sans-serif;
+}
+.btn{
+	display:inline-block;
+	background:pink;
+	color: black;
+	font-weight: bold;
+	padding:8px 30px;
+	margin:30px 0;
+	border-radius: 30px;
+	transition: background 1s;
+}
+.btn:hover{
+	background: crimson;
+}
+h1{
+	color: red;
+}
+h4{
+	color:blue;
+	font-size:20px;
+}

@@ -1,0 +1,102 @@
+<html>
+<head>
+	<title>SHOP-O-KART</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="jquery-3.2.1.js"></script>
+	<script type="text/javascript" src="cart.js"></script>
+	<link rel="stylesheet" href="cart.css">
+	
+	
+</head>
+<body>
+		<nav class="navbar  navbar-light bg-faded" id="nav-main">
+	  		<a class="navbar-brand" href="#" style="padding-left: 12vw; font-size: 30px;">Selected products</a>
+		</nav>
+	<div class="container-fluid" id="maincontainer">
+		<div align="center" id="row1" class="col">
+			<div class="col-md-4" style="padding-bottom: 15px;">
+				<img src="images/smartwatch.png" width="150px" height="250px">
+				<div id="pro-info">
+					<p class="product-name">boAt Storm Watch</p><p class="product-price">3000</p>
+					<button class="btn btn-secondary" id="btn1">ADD TO CART</button>
+				</div>
+			</div>
+		</div>
+		
+		
+	</div>
+<div class="container-fluid" id="maincontainer">
+		<div align="center" id="row2"class="col">
+			<div class="col-md-4" style="padding-bottom: 15px;">
+				<img src="images/samsung.jpeg" width="300px" height="400px">
+				<div id="pro-info">
+					<p class="product-name">Samsung Galaxy M51</p><p class="product-price">24000</p>
+						
+						
+					<button class="btn btn-secondary" id="btn2">ADD TO CART</button>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>	
+	<div class="container-fluid" id="maincontainer">
+		<div align="center" id="row2"class="col">
+			<div class="col-md-4" style="padding-bottom: 15px;">
+				<img src="images/JEANS.png" width="300px" height="400px">
+				<div id="pro-info">
+					<p class="product-name">JEANS</p><p class="product-price">1500</p>
+						
+						
+					<button class="btn btn-secondary" id="btn3">ADD TO CART</button>
+				</div>
+			</div>
+			
+		</div>
+		
+	</div>	
+	
+<div id="cartmain" class="container-fluid">
+	<div class="container" id="cart">
+		<div class="row">
+			<div class="col-md-12" id="cart-heading" align="center">
+				<h1><u>SHOPPING CART</u></h1>
+		</div>
+		</div>
+		<hr>
+		<div class="row" id="table-row">
+			<table class="table table-striped" id="item-table">
+			  <thead>
+			    <tr>
+			      <th>Item Id</th>
+			      <th>Product Name</th>
+			      <th>Price</th>
+			      <th>Quantity</th>
+			      <th>Total</th>
+			    </tr>
+			  </thead>
+			  <tbody id="item-table-body">
+
+			  </tbody>
+			</table>
+
+		</div>
+			<div class="row" align="center">
+				<div class="col-md-10">
+					<div>Grand Total : <label id="totalLabel">0</label>
+						
+						
+				</div>
+			</div>
+				<h4>SELECT A PAYMENT METHOD</h4>
+				<a href="payment.html" class="btn">CREDIT/DEBIT CARD &#8594;</a>
+				<a href="thankyou.html" class="btn">CASH ON DELIVERY &#8594;</a>
+		</div>
+		<hr>
+	</div>
+</div>
+</body>
+</html>

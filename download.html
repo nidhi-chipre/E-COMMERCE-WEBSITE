@@ -1,0 +1,22 @@
+<html>
+<head>
+	<title>DOWNLOAD INVOICE</title>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+	<a href="1%20-%20Important%20Questions%20.pdf" class="btn" > INVOICE</a>
+	<script>
+		let button =document.querySelector("body a");
+		button.addEventListener("click",() =>{ 
+			const span =document.querySelector("a span");
+			button.style.paddingRight = '10px;';
+			span.style.visibility="visible";
+			setTimeout (() =>{
+				span.style.visibility="hidden;";
+				button.style.paddingRight ="0px";
+			},3000)
+		})
+		</script>
+	
+	</body>
+</html>
